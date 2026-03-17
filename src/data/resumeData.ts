@@ -1,0 +1,112 @@
+export const resumeData = {
+  basics: {
+    name: "Birinder Singh",
+    label: "Backend-Focused Full-Stack Developer",
+    email: "birindersingh2410@gmail.com",
+    phone: "+91-7347655414",
+    location: { city: "Chandigarh", countryCode: "IN", region: "Punjab" },
+    profiles: [
+      {
+        network: "LinkedIn",
+        username: "birindersingh",
+        url: "https://linkedin.com/in/birindersingh",
+      },
+      {
+        network: "GitHub",
+        username: "birindersingh24",
+        url: "https://github.com/birindersingh24",
+      },
+    ],
+    summary:
+      "Backend-focused Full-Stack Developer with 4 years of experience building scalable services and data-driven applications using Spring Boot, Node.js, React, and Angular. Experienced in designing RESTful APIs, event-driven architectures with Kafka, microservices, and performance-optimized databases. Active open source contributor.",
+  },
+  work: [
+    {
+      name: "CloudEQ Pvt. Ltd.",
+      position: "Full-Stack Developer",
+      location: "Chandigarh, India",
+      startDate: "2024-05",
+      endDate: "",
+      highlights: [
+        "Backend Architecture: Designed and developed a Spring Boot-based resource management platform, enabling project managers to track project progress, allocate resources, and monitor activity logs with a structured event-driven approach.",
+        "Event-Driven Systems: Integrated Kafka message queues for asynchronous task processing and inter-service communication, improving system reliability and decoupling critical workflows.",
+        "Cloud Integration: Built a cloud expense optimization platform with a Spring Boot backend and React/TypeScript frontend, integrating AWS and Azure billing APIs to deliver real-time cost dashboards — improving cost management efficiency by 30%.",
+        "Performance Optimization: Improved front-end performance by 70% using React virtualization and Web Workers to efficiently render dropdowns with 100k+ entries.",
+        "Cross-Functional Delivery: Developed a React/TypeScript deployment monitoring dashboard for McDonald's SSCM, automating backend data retrieval via PowerShell scripts.",
+      ],
+    },
+    {
+      name: "Vitraya Technologies",
+      position: "Software Engineer",
+      location: "New Delhi, India",
+      startDate: "2022-05",
+      endDate: "2024-05",
+      highlights: [
+        "Full-Stack Development: Led a claims automation platform using Angular for frontend and Node.js microservices for backend processing, driving a 60% increase in revenue through streamlined claim workflows.",
+        "Frontend Integration: Built a React-based hospital management dashboard with OCR data validation integration, accelerating clinical decision-making workflows by 40%.",
+        "Database Optimization: Implemented indexing on JSON columns in MySQL, reducing critical query execution time by 80% and significantly improving database scalability under production load.",
+        "Tooling & Automation: Built an internal operations dashboard using Python (Django) and MongoDB, enabling the Ops team to efficiently retrieve and manage tariff data.",
+      ],
+    },
+  ],
+  education: [
+    {
+      institution: "Chandigarh Engineering College",
+      area: "Computer Science",
+      studyType: "Bachelor of Technology",
+      location: "Mohali, Punjab, India",
+      startDate: "2019-06",
+      endDate: "2022-06",
+    },
+  ],
+  volunteer: [
+    {
+      organization: "scrapit (open source)",
+      position: "Contributor",
+      url: "https://github.com/joaobenedetmachado/scrapit/pull/86",
+      startDate: "2026-03",
+      endDate: "2026-03",
+      summary: "Contributed an interactive CLI init command to scrapit, a Python web scraping framework.",
+      highlights: [
+        "Built scrapit init — an interactive CLI helper that guides users through generating YAML scraper directive files, supporting all scraper modes (single, paginated, spider, multi).",
+        "PR merged by maintainer in March 2026: github.com/joaobenedetmachado/scrapit/pull/86",
+      ],
+    },
+  ],
+  skills: [
+    {
+      name: "Backend",
+      keywords: ["Spring Boot", "Java", "NestJS", "Node.js", "Express", "Kafka", "REST APIs", "Microservices"],
+    },
+    {
+      name: "Frontend",
+      keywords: ["React", "TypeScript", "Redux", "Angular", "JavaScript", "Tailwind", "Bootstrap"],
+    },
+    {
+      name: "Databases",
+      keywords: ["MySQL", "MongoDB", "Query Optimization", "JSON Indexing"],
+    },
+    {
+      name: "Cloud & DevOps",
+      keywords: ["AWS", "Azure", "Docker", "CI/CD", "Nginx", "Git"],
+    },
+    {
+      name: "Python",
+      keywords: ["Django", "Flask"],
+    },
+  ],
+  projects: [
+    {
+      name: "EconomicQ — FinOps Platform",
+      description:
+        "Multi-cloud financial management tool built with Spring Boot and React/TypeScript, integrating AWS, Azure, and GCP billing APIs for real-time expense analysis and cost optimization across cloud providers.",
+      keywords: ["Spring Boot", "React", "TypeScript", "AWS", "Azure", "GCP", "FinOps"],
+    },
+    {
+      name: "VHI and Insurer Dashboard",
+      description:
+        "Claims management dashboard built with Angular and Node.js microservices, enabling real-time tracking, error reduction, and streamlined insurer-hospital workflows.",
+      keywords: ["Angular", "Node.js", "Microservices", "HealthTech"],
+    },
+  ],
+} as const;
