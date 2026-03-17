@@ -51,7 +51,7 @@
         "Full-Stack Development: Led a claims automation platform using Angular for frontend and Node.js microservices for backend processing, driving a 60% increase in revenue through streamlined claim workflows.",
         "Frontend Integration: Built a React-based hospital management dashboard with OCR data validation integration, accelerating clinical decision-making workflows by 40%.",
         "Database Optimization: Implemented indexing on JSON columns in MySQL, reducing critical query execution time by 80% and significantly improving database scalability under production load.",
-        "Tooling & Automation: Built an internal operations dashboard using Python (Django) and MongoDB, enabling the Ops team to efficiently retrieve and manage tariff data."
+        "Tooling & Automation: Built an internal operations dashboard using Python (Django) and MongoDB, enabling the Ops team to efficiently retrieve data."
       ]
     }
   ],
